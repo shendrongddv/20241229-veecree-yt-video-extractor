@@ -86,7 +86,7 @@ export function YTForm() {
         }
         return parts.join("\n");
       })
-      .join("\n\n");
+      .join("\n");
 
     const blob = new Blob([content], { type: "text/plain" });
     const url = URL.createObjectURL(blob);
