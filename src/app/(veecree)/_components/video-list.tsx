@@ -11,7 +11,7 @@ export function VideoList({ videos }: VideoListProps) {
       {videos.map((video) => (
         <a
           key={video.id}
-          href={`https://youtube.com/watch?v=${video.id}`}
+          href={`https://www.youtube.com/watch?v=${video.id}`}
           target="_blank"
           rel="noopener noreferrer"
           className="group block overflow-hidden rounded-lg border bg-card transition-colors hover:bg-accent"
