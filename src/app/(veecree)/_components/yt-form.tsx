@@ -82,7 +82,7 @@ export function YTForm() {
           parts.push(`${index + 1}. ${video.title}`);
         }
         if (options.url) {
-          parts.push(`https://youtube.com/watch?v=${video.id}`);
+          parts.push(`https://www.youtube.com/watch?v=${video.id}`);
         }
         return parts.join("\n");
       })
