@@ -47,7 +47,7 @@ export function VideoTable({
           </thead>
           <tbody>
             {videos.map((video, index) => {
-              const videoUrl = `https://youtube.com/watch?v=${video.id}`;
+              const videoUrl = `https://www.youtube.com/watch?v=${video.id}`;
               return (
                 <tr key={video.id} className="border-b text-sm">
                   <td className="p-4 align-middle">{index + 1}</td>
